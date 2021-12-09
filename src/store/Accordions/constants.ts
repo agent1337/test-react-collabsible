@@ -1,0 +1,1 @@
+export const UPDATE_ACCORDION = 'UPDATE_ACCORDION';
