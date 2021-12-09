@@ -1,12 +1,13 @@
-export interface IActiveRadio {
-    radio: string
+export enum ERadio {
+    Accordion,
+    Input
 }
 
 export type ActiveRadioState = {
-    active: IActiveRadio
+    active: ERadio
 }
 
 export type ActiveRadioAction = {
     type: string
-    payload: IActiveRadio
+    payload: ERadio
 }

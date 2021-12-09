@@ -1,10 +1,8 @@
-import { ActiveRadioAction, ActiveRadioState } from "./ActiveRadioTypes"
+import { ActiveRadioAction, ActiveRadioState, ERadio } from "./ActiveRadioTypes"
 import { UPDATE_ACTIVE_RADIO } from "./constants"
 
 const defaulteState: ActiveRadioState = {
-    active: {
-        radio: 'Accordions'
-    }
+    active: ERadio.Accordion
 }
 
 export const activeRadioReducer = (state: ActiveRadioState = defaulteState, action: ActiveRadioAction) => {
