@@ -1,0 +1,2 @@
+export const ACCORDION_OPEN = "ACCORDION_OPEN";
+export const ISDISABLED = "ISDISABLED";

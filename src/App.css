@@ -1,0 +1,97 @@
+.App {
+  max-width: 550px;
+  width: 100%;
+  margin: 20px auto;
+  border: 1px solid #000000;
+  padding: 0 45px 45px 45px;
+}
+
+.radio-input {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  margin-left: -25px;
+}
+
+.accordion {
+  border: 1px solid #000000;
+}
+
+.item {
+  width: 90%;
+  margin: 5%;
+}
+
+.inner {
+  width: initial;
+  display: flex;
+  border: 1px solid #000000;
+  border-radius: 5px;
+}
+
+.text {
+  width: 100%;
+  padding-left: 10px;
+}
+
+.btn {
+  float: right;
+  border-left: 1px solid #000000;
+  border-right: none;
+  border-top: none;
+  border-bottom: none;
+  cursor: pointer;
+  width: 25px;
+  height: 50px;
+  position: relative;
+}
+
+.content {
+  width: initial;
+  height: 120px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  padding-left: 10px;
+  color: rgb(155, 155, 155);
+  display: none;
+}
+
+.showContent {
+  display: block;
+}
+
+.triangle-top,
+.triangle-bottom {
+  width: 0;
+  height: 0;
+  margin: 30px auto;
+  position: absolute;
+  top: -10px;
+}
+.triangle-top,
+.triangle-bottom {
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+}
+
+.triangle-top {
+  border-bottom: 11px solid black;
+}
+
+.triangle-bottom {
+  border-top: 9px solid black;
+}
+
+.block {
+  border: 1px solid #000000;
+  padding: 0% 5%;
+  height: 270px;
+}
+
+.input {
+  width: 90%;
+  height: 40px;
+  padding-left: 10px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  font-size: 18px;
+}
