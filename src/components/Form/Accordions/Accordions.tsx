@@ -11,7 +11,7 @@ const Accordions: FC = () => {
                 {
                     accordions.map(item =>
                         <li key={item.id}>
-                            <Accordion  item={item} />
+                            <Accordion item={item} />
                         </li>
                     )
                 }

@@ -26,11 +26,9 @@ export const accordionsReducer = (state: AccordionsState = defaulteState, action
     switch (action.type) {
         case UPDATE_ACCORDION:
             return {
-                ...state, accordions: state.accordions.filter(item => {
-                    if (item.id === action.payload.id) {
-                        item = action.payload
-                    }
-                    return state.accordions;
+                ...state, accordions: state.accordions.map(item => {
+                    if (item.id === action.payload.id) return { ...item, active: action.payload.active };
+                    else return { ...item, active: false }; 
                 })
             }
 
